@@ -1,0 +1,32 @@
+
+/* 公共样式 */
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: PingFangSC-Regular,HelveticaNeue-Light,'Helvetica Neue Light','Microsoft YaHei',sans-serif;
+    text-align: left;
+    color: #262626;
+    background: #fff;
+    min-width: 1200px;
+}
+
+a{
+    /* 去除下划线 */
+    text-decoration: none;
+    color: #262626;
+}
+w{
+    /* 固定容器宽度 */
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div{
+    display: block;
+}
